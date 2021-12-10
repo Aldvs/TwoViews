@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -17,11 +17,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QCp-BQ-HDc">
-                                <rect key="frame" x="20" y="465.5" width="374" height="396.5"/>
+                                <rect key="frame" x="20" y="465.66666666666674" width="374" height="396.33333333333326"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OqK-8y-trj">
-                                <rect key="frame" x="20" y="44" width="374" height="396.5"/>
+                                <rect key="frame" x="20" y="44" width="374" height="396.66666666666669"/>
                                 <color key="backgroundColor" systemColor="linkColor"/>
                             </view>
                         </subviews>
@@ -32,7 +32,6 @@
                             <constraint firstItem="QCp-BQ-HDc" firstAttribute="height" secondItem="OqK-8y-trj" secondAttribute="height" id="68K-hC-Aaq"/>
                             <constraint firstItem="QCp-BQ-HDc" firstAttribute="top" secondItem="OqK-8y-trj" secondAttribute="bottom" constant="25" id="7rh-6f-yiU"/>
                             <constraint firstItem="QCp-BQ-HDc" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="D20-ZC-hd5"/>
-                            <constraint firstItem="QCp-BQ-HDc" firstAttribute="centerX" secondItem="OqK-8y-trj" secondAttribute="centerX" id="JIG-Ly-ZRR"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QCp-BQ-HDc" secondAttribute="trailing" constant="20" id="JLU-9f-BaU"/>
                             <constraint firstItem="OqK-8y-trj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Mab-2g-I0N"/>
                             <constraint firstItem="QCp-BQ-HDc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Rt4-7E-1Up"/>
